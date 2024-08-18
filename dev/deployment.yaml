@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: us-docker.pkg.dev/rfx-us-zwcpoc01-t/ztm-images/nginx:1.27.1
+        image: nginx:1.27.1
         ports:
         - containerPort: 80
